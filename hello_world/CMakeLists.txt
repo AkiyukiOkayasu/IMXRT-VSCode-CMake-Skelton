@@ -9,6 +9,12 @@ SET (Tutorial_VERSION_MINOR 0)
 # ENABLE C/C++ ASM
 ENABLE_LANGUAGE(C CXX ASM)
 
+# armgccで必要な環境変数 CMakeLists.txtでフルパスを書くのはあまりよくない。
+SET(ENV{ARMGCC_DIR} /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07)
+
+# Path to toolchain file. This one has to be before 'project()' below
+set(CMAKE_TOOLCHAIN_FILE ${CMAKE_CURRENT_SOURCE_DIR}/armgcc.cmake)
+
 SET(CMAKE_STATIC_LIBRARY_PREFIX)
 SET(CMAKE_STATIC_LIBRARY_SUFFIX)
 
