@@ -6,17 +6,17 @@ CMAKE_MINIMUM_REQUIRED (VERSION 3.14.0)
 SET (Tutorial_VERSION_MAJOR 1)
 SET (Tutorial_VERSION_MINOR 0)
 
-# ENABLE C/C++ ASM
-ENABLE_LANGUAGE(C CXX ASM)
-set(CMAKE_C_STANDARD 11)#C11
-set(CMAKE_CXX_STANDARD 17)#C++17
-set(CMAKE_CXX_STANDARD_REQUIRED ON)#C++17 is required
-
 # armgccで必要な環境変数 CMakeLists.txtでフルパスを書くのはあまりよくない。
 SET(ENV{ARMGCC_DIR} /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07)
 
 # Path to toolchain file. This one has to be before 'project()' below
 set(CMAKE_TOOLCHAIN_FILE ${CMAKE_CURRENT_SOURCE_DIR}/armgcc.cmake)
+
+# ENABLE C/C++ ASM
+ENABLE_LANGUAGE(C CXX ASM)
+set(CMAKE_C_STANDARD 11)#C11
+set(CMAKE_CXX_STANDARD 17)#C++17
+set(CMAKE_CXX_STANDARD_REQUIRED ON)#C++17 is required
 
 SET(CMAKE_STATIC_LIBRARY_PREFIX)
 SET(CMAKE_STATIC_LIBRARY_SUFFIX)
