@@ -35,6 +35,7 @@ project(hello_world)
 
 set(MCUX_SDK_PROJECT_NAME hello_world.elf)
 
+# コンパイラやリンカの設定
 include(${ProjDirPath}/./flags.cmake)
 
 include(${ProjDirPath}/./config.cmake)
