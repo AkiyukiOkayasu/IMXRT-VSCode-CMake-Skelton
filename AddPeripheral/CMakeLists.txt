@@ -1,13 +1,15 @@
 # CROSS COMPILER SETTING
 SET(CMAKE_SYSTEM_NAME Generic)
-CMAKE_MINIMUM_REQUIRED (VERSION 3.10.0)
+CMAKE_MINIMUM_REQUIRED (VERSION 3.14.0)
 
-# THE VERSION NUMBER
-SET (Tutorial_VERSION_MAJOR 1)
-SET (Tutorial_VERSION_MINOR 0)
+# armgccで必要な環境変数 CMakeLists.txtでフルパスを書くのはあまりよくない。
+SET(ENV{ARMGCC_DIR} /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07)
+
+# Path to toolchain file. This one has to be before 'project()' below
+set(CMAKE_TOOLCHAIN_FILE ${CMAKE_CURRENT_SOURCE_DIR}/armgcc.cmake)
 
 # ENABLE ASM
-ENABLE_LANGUAGE(ASM)
+ENABLE_LANGUAGE(C CXX ASM)
 
 SET(CMAKE_STATIC_LIBRARY_PREFIX)
 SET(CMAKE_STATIC_LIBRARY_SUFFIX)
@@ -21,8 +23,7 @@ SET(ProjDirPath ${CMAKE_CURRENT_SOURCE_DIR})
 SET(EXECUTABLE_OUTPUT_PATH ${ProjDirPath}/${CMAKE_BUILD_TYPE})
 SET(LIBRARY_OUTPUT_PATH ${ProjDirPath}/${CMAKE_BUILD_TYPE})
 
-
-project(AddPeripheral)
+project(AddPeripheral VERSION 1.0.0)
 
 set(MCUX_SDK_PROJECT_NAME AddPeripheral.elf)
 

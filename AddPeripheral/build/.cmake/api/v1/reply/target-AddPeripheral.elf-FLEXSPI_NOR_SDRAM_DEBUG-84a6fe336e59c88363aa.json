@@ -1,0 +1,715 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/Users/akiyuki/Documents/IMXRT-VSCode-CMake-Skelton/AddPeripheral/FLEXSPI_NOR_SDRAM_DEBUG/AddPeripheral.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"TARGET_LINK_LIBRARIES",
+			"target_link_libraries",
+			"target_include_directories",
+			"include",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"utilities/utility_debug_console_lite_MIMXRT1021.cmake",
+			"component/uart/component_lpuart_adapter_MIMXRT1021.cmake",
+			"drivers/driver_common_MIMXRT1021.cmake",
+			"device/device_MIMXRT1021_CMSIS_MIMXRT1021.cmake",
+			"CMSIS/CMSIS_Include_core_cm_MIMXRT1021.cmake",
+			"component/lists/component_lists_MIMXRT1021.cmake",
+			"xip/driver_xip_device_MIMXRT1021.cmake",
+			"drivers/driver_clock_MIMXRT1021.cmake",
+			"drivers/driver_lpuart_MIMXRT1021.cmake",
+			"utilities/utility_assert_lite_MIMXRT1021.cmake",
+			"startup/device_MIMXRT1021_startup_MIMXRT1021.cmake",
+			"device/device_MIMXRT1021_system_MIMXRT1021.cmake",
+			"drivers/driver_igpio_MIMXRT1021.cmake",
+			"xip/driver_xip_board_evkmimxrt1020_MIMXRT1021.cmake",
+			"utilities/utilities_misc_utilities_MIMXRT1021.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 96,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 98,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 100,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 102,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 104,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 106,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 10
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 14,
+				"parent" : 10
+			},
+			{
+				"file" : 2,
+				"parent" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 9,
+				"parent" : 13
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 14,
+				"parent" : 13
+			},
+			{
+				"file" : 3,
+				"parent" : 15
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 10,
+				"parent" : 16
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 17,
+				"parent" : 16
+			},
+			{
+				"file" : 4,
+				"parent" : 18
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 5,
+				"parent" : 19
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 9,
+				"parent" : 19
+			},
+			{
+				"file" : 5,
+				"parent" : 21
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 5,
+				"parent" : 22
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 0
+			},
+			{
+				"file" : 6,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 9,
+				"parent" : 25
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 85,
+				"parent" : 0
+			},
+			{
+				"file" : 7,
+				"parent" : 27
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 9,
+				"parent" : 28
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 10
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 4,
+				"parent" : 13
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 4,
+				"parent" : 16
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 15,
+				"parent" : 16
+			},
+			{
+				"file" : 8,
+				"parent" : 33
+			},
+			{
+				"command" : 5,
+				"file" : 8,
+				"line" : 4,
+				"parent" : 34
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 16,
+				"parent" : 13
+			},
+			{
+				"file" : 9,
+				"parent" : 36
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 4,
+				"parent" : 37
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 0
+			},
+			{
+				"file" : 10,
+				"parent" : 39
+			},
+			{
+				"command" : 5,
+				"file" : 10,
+				"line" : 4,
+				"parent" : 40
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 4,
+				"parent" : 25
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 79,
+				"parent" : 0
+			},
+			{
+				"file" : 11,
+				"parent" : 43
+			},
+			{
+				"command" : 5,
+				"file" : 11,
+				"line" : 4,
+				"parent" : 44
+			},
+			{
+				"command" : 4,
+				"file" : 11,
+				"line" : 9,
+				"parent" : 44
+			},
+			{
+				"file" : 12,
+				"parent" : 46
+			},
+			{
+				"command" : 5,
+				"file" : 12,
+				"line" : 4,
+				"parent" : 47
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 83,
+				"parent" : 0
+			},
+			{
+				"file" : 13,
+				"parent" : 49
+			},
+			{
+				"command" : 5,
+				"file" : 13,
+				"line" : 4,
+				"parent" : 50
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 4,
+				"parent" : 28
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 0
+			},
+			{
+				"file" : 14,
+				"parent" : 53
+			},
+			{
+				"command" : 5,
+				"file" : 14,
+				"line" : 4,
+				"parent" : 54
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 91,
+				"parent" : 0
+			},
+			{
+				"file" : 15,
+				"parent" : 56
+			},
+			{
+				"command" : 5,
+				"file" : 15,
+				"line" : 4,
+				"parent" : 57
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "          -DXIP_EXTERNAL_FLASH=1     -DXIP_BOOT_HEADER_ENABLE=1     -DXIP_BOOT_HEADER_DCD_ENABLE=1     -DSKIP_SYSCLK_INIT     -DDATA_SECTION_IS_CACHEABLE=1     -DDEBUG     -DCPU_MIMXRT1021DAG5A     -DPRINTF_FLOAT_ENABLE=0     -DSCANF_FLOAT_ENABLE=0     -DPRINTF_ADVANCED_ENABLE=0     -DSCANF_ADVANCED_ENABLE=0     -DMCUXPRESSO_SDK     -g     -O0     -mcpu=cortex-m7     -Wall     -mfloat-abi=hard     -mfpu=fpv5-d16     -mthumb     -MMD     -MP     -fno-common     -ffunction-sections     -fdata-sections     -ffreestanding     -fno-builtin     -mapcs     -std=gnu99 "
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "/Users/akiyuki/Documents/IMXRT-VSCode-CMake-Skelton/AddPeripheral/board"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/akiyuki/Documents/IMXRT-VSCode-CMake-Skelton/AddPeripheral/utilities"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/akiyuki/Documents/IMXRT-VSCode-CMake-Skelton/AddPeripheral/component/uart"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/Users/akiyuki/Documents/IMXRT-VSCode-CMake-Skelton/AddPeripheral/drivers"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/Users/akiyuki/Documents/IMXRT-VSCode-CMake-Skelton/AddPeripheral/device"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "/Users/akiyuki/Documents/IMXRT-VSCode-CMake-Skelton/AddPeripheral/CMSIS"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/Users/akiyuki/Documents/IMXRT-VSCode-CMake-Skelton/AddPeripheral/component/lists"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/Users/akiyuki/Documents/IMXRT-VSCode-CMake-Skelton/AddPeripheral/xip"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4,
+				6,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				18,
+				19,
+				20,
+				21,
+				22
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "          -D__STARTUP_CLEAR_BSS     -DDEBUG     -D__STARTUP_INITIALIZE_NONCACHEDATA     -g     -mcpu=cortex-m7     -Wall     -mfloat-abi=hard     -mfpu=fpv5-d16     -mthumb     -fno-common     -ffunction-sections     -fdata-sections     -ffreestanding     -fno-builtin     -mapcs     -std=gnu99 "
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "/Users/akiyuki/Documents/IMXRT-VSCode-CMake-Skelton/AddPeripheral/board"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/akiyuki/Documents/IMXRT-VSCode-CMake-Skelton/AddPeripheral/utilities"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/akiyuki/Documents/IMXRT-VSCode-CMake-Skelton/AddPeripheral/component/uart"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/Users/akiyuki/Documents/IMXRT-VSCode-CMake-Skelton/AddPeripheral/drivers"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/Users/akiyuki/Documents/IMXRT-VSCode-CMake-Skelton/AddPeripheral/device"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "/Users/akiyuki/Documents/IMXRT-VSCode-CMake-Skelton/AddPeripheral/CMSIS"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/Users/akiyuki/Documents/IMXRT-VSCode-CMake-Skelton/AddPeripheral/component/lists"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/Users/akiyuki/Documents/IMXRT-VSCode-CMake-Skelton/AddPeripheral/xip"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				17
+			]
+		}
+	],
+	"id" : "AddPeripheral.elf::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-DXIP_EXTERNAL_FLASH=1     -DXIP_BOOT_HEADER_ENABLE=1     -DXIP_BOOT_HEADER_DCD_ENABLE=1     -DSKIP_SYSCLK_INIT     -DDATA_SECTION_IS_CACHEABLE=1     -DDEBUG     -DCPU_MIMXRT1021DAG5A     -DPRINTF_FLOAT_ENABLE=0     -DSCANF_FLOAT_ENABLE=0     -DPRINTF_ADVANCED_ENABLE=0     -DSCANF_ADVANCED_ENABLE=0     -DMCUXPRESSO_SDK     -g     -O0     -mcpu=cortex-m7     -Wall     -mfloat-abi=hard     -mfpu=fpv5-d16     -mthumb     -MMD     -MP     -fno-common     -ffunction-sections     -fdata-sections     -ffreestanding     -fno-builtin     -mapcs     -std=gnu99",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-g     -mcpu=cortex-m7     -Wall     -mfloat-abi=hard     -mfpu=fpv5-d16     --specs=nano.specs     --specs=nosys.specs     -fno-common     -ffunction-sections     -fdata-sections     -ffreestanding     -fno-builtin     -mthumb     -mapcs     -Xlinker     --gc-sections     -Xlinker     -static     -Xlinker     -z     -Xlinker     muldefs     -Xlinker     -Map=output.map     -Wl,--print-memory-usage     -T/Users/akiyuki/Documents/IMXRT-VSCode-CMake-Skelton/AddPeripheral/MIMXRT1021/gcc/MIMXRT1021xxxxx_flexspi_nor_sdram.ld -static",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,--start-group",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lc",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-lgcc",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lnosys",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-Wl,--end-group",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "AddPeripheral.elf",
+	"nameOnDisk" : "AddPeripheral.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4,
+				6,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				18,
+				19,
+				20,
+				21,
+				22
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				5,
+				7
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				17
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "board/board.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "board/board.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "board/clock_config.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "board/clock_config.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "board/dcd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "board/dcd.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "board/pin_mux.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "board/pin_mux.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/hello_world.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 30,
+			"compileGroupIndex" : 0,
+			"path" : "utilities/fsl_debug_console.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "component/uart/fsl_adapter_lpuart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "drivers/fsl_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "drivers/fsl_common_arm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 35,
+			"compileGroupIndex" : 0,
+			"path" : "drivers/fsl_clock.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "drivers/fsl_lpuart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 41,
+			"compileGroupIndex" : 0,
+			"path" : "utilities/fsl_assert.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 42,
+			"compileGroupIndex" : 0,
+			"path" : "component/lists/fsl_component_generic_list.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 45,
+			"compileGroupIndex" : 1,
+			"path" : "startup/startup_MIMXRT1021.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 0,
+			"path" : "device/system_MIMXRT1021.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "drivers/fsl_gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 52,
+			"compileGroupIndex" : 0,
+			"path" : "xip/fsl_flexspi_nor_boot.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 55,
+			"compileGroupIndex" : 0,
+			"path" : "xip/evkmimxrt1020_flexspi_nor_config.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 58,
+			"compileGroupIndex" : 0,
+			"path" : "utilities/fsl_sbrk.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

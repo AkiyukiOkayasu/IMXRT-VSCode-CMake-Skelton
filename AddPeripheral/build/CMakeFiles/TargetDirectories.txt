@@ -1,0 +1,3 @@
+/Users/akiyuki/Documents/IMXRT-VSCode-CMake-Skelton/AddPeripheral/build/CMakeFiles/rebuild_cache.dir
+/Users/akiyuki/Documents/IMXRT-VSCode-CMake-Skelton/AddPeripheral/build/CMakeFiles/edit_cache.dir
+/Users/akiyuki/Documents/IMXRT-VSCode-CMake-Skelton/AddPeripheral/build/CMakeFiles/AddPeripheral.elf.dir
