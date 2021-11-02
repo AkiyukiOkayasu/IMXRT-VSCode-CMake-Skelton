@@ -40,12 +40,15 @@ add_executable(${MCUX_SDK_PROJECT_NAME}
 "${ProjDirPath}/board/dcd.h"
 "${ProjDirPath}/board/pin_mux.c"
 "${ProjDirPath}/board/pin_mux.h"
+"${ProjDirPath}/board/peripherals.c"
 "${ProjDirPath}/source/hello_world.c"
 )
 
 target_include_directories(${MCUX_SDK_PROJECT_NAME} PRIVATE
 ${ProjDirPath}/board
 )
+
+SET(MCUSDK_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../sdk/SDK_2_10_0_MIMXRT1021xxxxx)
 
 set(CMAKE_MODULE_PATH
 ${ProjDirPath}/.
@@ -57,6 +60,7 @@ ${ProjDirPath}/drivers
 ${ProjDirPath}/startup
 ${ProjDirPath}/utilities
 ${ProjDirPath}/xip
+${MCUSDK_DIR}/devices/MIMXRT1021/drivers
 )
 
 # include modules
@@ -91,6 +95,9 @@ include(CMSIS_Include_core_cm_MIMXRT1021)
 include(utilities_misc_utilities_MIMXRT1021)
 
 include(device_MIMXRT1021_system_MIMXRT1021)
+
+#cmake module for ADC peripheral
+include(driver_adc_12b1msps_sar_MIMXRT1021)
 
 
 TARGET_LINK_LIBRARIES(${MCUX_SDK_PROJECT_NAME} PRIVATE -Wl,--start-group)
