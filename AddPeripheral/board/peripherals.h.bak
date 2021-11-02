@@ -10,26 +10,10 @@
  * Included files
  **********************************************************************************************************************/
 #include "fsl_common.h"
-#include "fsl_adc.h"
 
 #if defined(__cplusplus)
 extern "C" {
 #endif /* __cplusplus */
-
-/***********************************************************************************************************************
- * Definitions
- **********************************************************************************************************************/
-/* Definitions for BOARD_InitPeripherals functional group */
-/* BOARD_InitPeripherals defines for ADC1 */
-/* Definition of peripheral ID */
-#define ADC1_PERIPHERAL ADC1
-/* Definition of special channel interconnected with ADC_ETC which takes real channel to be measured from ADC_ETC. */
-#define ADC1_CHANNEL_DRIVEN_BY_ADC_ETC 16U
-
-/***********************************************************************************************************************
- * Global variables
- **********************************************************************************************************************/
-extern const adc_config_t ADC1_config;
 
 /***********************************************************************************************************************
  * Initialization functions

@@ -11,6 +11,7 @@
 #include "pin_mux.h"
 #include "clock_config.h"
 #include "board.h"
+#include "peripherals.h"
 
 /*******************************************************************************
  * Definitions
@@ -36,6 +37,9 @@ int main(void)
     BOARD_InitBootPins();
     BOARD_InitBootClocks();
     BOARD_InitDebugConsole();
+
+    //Init peripherals
+    BOARD_InitBootPeripherals(void)
 
     PRINTF("hello world.\r\n");
 
