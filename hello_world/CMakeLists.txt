@@ -23,13 +23,10 @@ SET(CMAKE_EXECUTABLE_LIBRARY_SUFFIX)
 # CURRENT DIRECTORY
 SET(ProjDirPath ${CMAKE_CURRENT_SOURCE_DIR})
 
-project(hello_world VERSION 1.0.0)
-
 SET(EXECUTABLE_OUTPUT_PATH ${ProjDirPath}/${CMAKE_BUILD_TYPE})
 SET(LIBRARY_OUTPUT_PATH ${ProjDirPath}/${CMAKE_BUILD_TYPE})
 
-
-project(hello_world)
+project(hello_world VERSION 1.0.0)
 
 set(MCUX_SDK_PROJECT_NAME hello_world.elf)
 
