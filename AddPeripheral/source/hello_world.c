@@ -39,7 +39,7 @@ int main(void)
     BOARD_InitDebugConsole();
 
     //Init peripherals
-    BOARD_InitBootPeripherals(void)
+    BOARD_InitBootPeripherals();
 
     PRINTF("hello world.\r\n");
 
