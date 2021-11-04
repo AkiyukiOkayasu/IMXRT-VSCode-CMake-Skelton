@@ -11,7 +11,7 @@
             "request": "launch",
             "type": "cortex-debug",
             "servertype": "jlink",
-            "serverpath": "/Applications/SEGGER/JLink_V754b/JLinkGDBServerCLExe",
+            "serverpath": "/Applications/SEGGER/JLink/JLinkGDBServerCLExe",
             "armToolchainPath": "/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/bin",
             "device": "MIMXRT1021XXX5A",
             "interface": "swd",
